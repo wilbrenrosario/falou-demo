@@ -1,14 +1,32 @@
 [
   {
     "author": {
-      "firstName": "John",
+      "firstName": "Emilia",
       "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
-      "lastName": "Doe"
+      "lastName": "Doe",
+      "imageUrl": "https://i.pravatar.cc/300?u=e52552f4-835d-4dbe-ba77-b076e659774d"
     },
     "createdAt": 1655648404000,
     "id": "c67ed376-52bf-4d4e-ba2a-7a0f8467b22a",
     "status": "seen",
     "text": "Hey Wilbren, how are you?",
     "type": "text"
+  },
+  {
+    "author": {
+      "firstName": "Emilia",
+      "id": "4c2307ba-3d40-442f-b1ff-b271f63904ca",
+      "lastName": "Doe",
+      "imageUrl": "https://i.pravatar.cc/300?u=e52552f4-835d-4dbe-ba77-b076e659774d"
+    },
+    "createdAt": 1655648403000,
+    "height": 1280,
+    "id": "02797655-4d73-402e-a319-50fde79e2bc4",
+    "name": "madrid",
+    "size": 585000,
+    "status": "seen",
+    "type": "image",
+    "uri": "https://i.pravatar.cc/300?u=e52552f4-835d-4dbe-ba77-b076e659774d",
+    "width": 3000
   }
 ]

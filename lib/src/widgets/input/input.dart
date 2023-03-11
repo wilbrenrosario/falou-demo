@@ -185,21 +185,26 @@ class _InputState extends State<Input> {
               Padding(
                   padding: textPadding,
                   child: Container(
-                    margin: EdgeInsets.only(left: 10, right: 10),
+                    margin: EdgeInsets.only(left: 30, right: 10),
                     padding: EdgeInsets.all(20),
                     decoration: BoxDecoration(
-                        color: Colors.grey,
+                        color: Colors.grey[200],
                         borderRadius: BorderRadius.circular(35)),
-                    child: Center(child: Text(widget.text)),
+                    child: Center(
+                        child: Text(
+                      widget.text,
+                      style: TextStyle(
+                          color: Colors.black, fontWeight: FontWeight.bold),
+                    )),
                   )),
               Padding(
                   padding: textPadding,
                   child: Container(
-                    margin: EdgeInsets.only(left: 10, right: 10),
+                    margin: EdgeInsets.only(left: 25, right: 10),
                     padding: EdgeInsets.only(left: 20, right: 20),
                     child: Center(
                         child: Text(
-                      "Repete!",
+                      "Repeat!",
                       style: TextStyle(color: Colors.grey),
                     )),
                   )),
@@ -217,7 +222,7 @@ class _InputState extends State<Input> {
                         highlightColor: Colors.transparent,
                         onPressed: () {},
                         icon: Icon(
-                          Icons.source_rounded,
+                          Icons.library_music_rounded,
                           color: Colors.grey,
                         )),
                   ),
@@ -248,7 +253,7 @@ class _InputState extends State<Input> {
                         highlightColor: Colors.transparent,
                         onPressed: () {},
                         icon: Icon(
-                          Icons.car_crash,
+                          Icons.spatial_audio,
                           color: Colors.grey,
                         )),
                   )

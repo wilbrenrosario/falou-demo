@@ -114,6 +114,25 @@ class _MyHomePageState extends State<MyHomePage> {
             text: "I'm searching new movies",
           );
           _addMessage(textMessage);
+          final textMessage2 = types.TextMessage(
+            author: _user2,
+            createdAt: DateTime.now().millisecondsSinceEpoch,
+            id: const Uuid().v4(),
+            text: "Oh excellent, what is your favorite sport?",
+          );
+          _addMessage(textMessage2);
+          setState(() {
+            text = "My sport favorite is ball";
+          });
+        } else if (_lastWords.toUpperCase() ==
+            "My sport favorite is ball".toUpperCase()) {
+          final textMessage = types.TextMessage(
+            author: _user,
+            createdAt: DateTime.now().millisecondsSinceEpoch,
+            id: const Uuid().v4(),
+            text: "My sport favorite is ball.",
+          );
+          _addMessage(textMessage);
           setState(() {
             text = "[Finalized]";
           });
